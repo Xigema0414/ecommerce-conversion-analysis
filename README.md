@@ -12,6 +12,14 @@
 4. 能否根据会话前 5 次行为预测后续购买？
 5. 如何通过 A/B 实验验证模型驱动的推荐策略？
 
+## 项目地址与当前状态
+
+- GitHub 仓库：[Xigema0414/ecommerce-conversion-analysis](https://github.com/Xigema0414/ecommerce-conversion-analysis)
+- 本地项目路径：`C:\Users\29443\Documents\实习\项目\ecommerce-conversion`
+- Git 分支：`main`
+- 当前版本已上传 GitHub，包含 README、4 个 Jupyter Notebook、5 张分析图表、`src/inspect_sample.py`、`requirements.txt` 和 `.gitignore`。
+- 原始 CSV、Parquet 中间文件和 `.venv` 未上传，以避免大文件和本地环境文件进入公开仓库。
+
 ## 数据来源
 
 数据来源：
@@ -398,6 +406,8 @@ data/raw/2019-Oct.csv
 04_ab_test_design.ipynb
 ```
 
+运行说明：重启 Jupyter 内核后，需要从上到下重新运行当前 Notebook 中的代码单元；否则前面定义的变量、数据库连接和模型对象不会保留。Notebook 依赖本地生成的 Parquet 文件，必须先完成数据转换和清洗步骤。
+
 ## 主要结论
 
 - 用户级严格浏览后购买率为 6.50%，会话级为 3.13%，说明部分行为跨会话完成。
@@ -426,6 +436,8 @@ data/raw/2019-Oct.csv
 - ✅ 概率校准
 - ✅ A/B 实验设计
 - ✅ 业务分析图表
+- ✅ 整理项目 README 与运行说明
+- ✅ 创建公开 GitHub 仓库并上传可复现代码、Notebook 和图表
 
 ## 后续可扩展内容
 
