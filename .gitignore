@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# 原始和中间数据体积很大，不提交到 Git
+data/raw/
+data/interim/
+data/processed/
+

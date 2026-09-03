@@ -1,0 +1,10 @@
+pandas
+pyarrow
+duckdb
+ipykernel
+jupyterlab
+matplotlib
+seaborn
+scikit-learn
+lightgbm
+statsmodels
